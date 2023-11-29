@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.button, input[type='submit']{
+    border: 1px solid black;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+input[type='text'], textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+}
